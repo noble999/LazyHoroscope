@@ -18,6 +18,6 @@ int main()
   //tell fortune
   cout<<"Welcome, "<<first_Name[0]<<"."<<last_Name[0]<<"., here is your fortune...";
   lucky=first_Name.length();
-  cout<<"\nyour lucky number is "<<lucky;
+  cout<<"\nyour lucky number is "<<lucky<<endl;
   return 0;
 }
