@@ -15,13 +15,14 @@ int main()
   //get user input
   cout<<"What is your first name?\n";
   cin>>first_Name;
-  first_Name[0]=toupper(first_Name[0]);
+  //first_Name[0]=toupper(first_Name[0]);
   cout<<"What is your last name?\n";
   cin>>last_Name;
   last_Name[last_Name.length()-1]=toupper(last_Name[last_Name.length()-1]);
   //tell fortune
   cout<<"Welcome, "<<first_Name[0]<<"."<<last_Name[0]<<"., here is your fortune...";
   lucky=first_Name.length();
+  first_Name[0]=toupper(first_Name[0]);
   cout<<"\nyour lucky number is "<<lucky;
   if((first_Name[0]=='A')||(first_Name[0]=='E')||(first_Name[0]=='I')||(first_Name[0]=='O')||(first_Name[0]=='U'))
   {
